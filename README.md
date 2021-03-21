@@ -9,33 +9,33 @@ Perform INSERT, UPDATE, DELETE & SELECT statements in a table named products
 Output Screens
 
 # INSERT statement
-![GitHub Logo](INSERT.png)
+![GitHub Logo](INSERT.jpg)
 Format: ![Alt Text](url)
 
-![GitHub Logo](INSERTR.png)
+![GitHub Logo](INSERTR.jpg)
 Format: ![Alt Text](url)
 
 # UPDATE statement
-![GitHub Logo](UPDATE.png)
+![GitHub Logo](UPDATE.jpg)
 Format: ![Alt Text](url)
 
-![GitHub Logo](UPDATER.png)
+![GitHub Logo](UPDATER.jpg)
 Format: ![Alt Text](url)
 
 # DELETE statement
 
-![GitHub Logo](DELETE.png)
+![GitHub Logo](DELETE.jpg)
 Format: ![Alt Text](url)
 
-![GitHub Logo](DELETER.png)
+![GitHub Logo](DELETER.jpg)
 Format: ![Alt Text](url)
 
 # SELECT statement                       
 
-![GitHub Logo](SELECT.png)
+![GitHub Logo](SELECT.jpg)
 Format: ![Alt Text](url)
 
-![GitHub Logo](SELECTR.png)
+![GitHub Logo](SELECTR.jpg)
 Format: ![Alt Text](url)   
 
 
