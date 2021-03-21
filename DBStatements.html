@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="db.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+<div class="card">
+     <form action="DB2.php" method="post" >
+       <div class="dml_stmts">
+
+	    		  <h2>Select the DML Statement</h2>
+                  <br>	
+<div class="card1">
+		         <h3>INSERT STATEMENT</h3>
+		         <h4><input type="radio" name="statemnt" value="insert">INSERT</h4>
+		         <h4>INSERT into products VALUES<input type="text" name="values">;</h4>
+				 <br>		
+</div>
+<br>
+<div class="card1">
+		         <h3>UPDATE STATEMENT</h3>
+		         <h4><input type="radio" name="statemnt" value="update">UPDATE</h4>
+		         <h4>UPDATE products SET  <input type="text" name="updateSql"/> WHERE <input type = "text" name="updateValues"/>;</h4>
+				 <br>	
+</div>				 
+<br>
+<div class="card1">
+		         <h3>DELETE STATEMENT</h3>
+		         <h4><input type="radio" name="statemnt" value="delete">DELETE</h4>
+		         <h4>DELETE FROM products WHERE<input type="text" name="deleteRecords">;</h4>
+				 <br>     
+</div>
+<br>
+<div class="card1">
+		         <h3>SELECT STATEMENT</h3>
+	             <h4><input type="radio" name="statemnt" value="select">SELECT</h4>	
+				 <h4><input type="radio" name='selectRecords' value="sAllRecords">Select * from products;</h4>
+				 <h4><input type="radio" name='selectRecords' value="sRecords">SELECT <input type="text" name="selectData"> FROM Products WHERE = <input type="text" name="selectValue">;</h4>
+				 <br><br><br>
+
+
+</div>
+<br>
+   </div>
+
+	<br><br>
+<input type="submit" class="button" value="SUBMIT">
+
+</form>
+
+ </div>
+</body>
+</html>
